@@ -95,7 +95,7 @@ professor@acquaflow.com / prof1234
 
 Vincule os usuários na tabela usuarios com seus UUIDs.
 
-6️⃣ Rodar o Servidor
+### 6️⃣ Rodar o Servidor
 
 npm start
 
