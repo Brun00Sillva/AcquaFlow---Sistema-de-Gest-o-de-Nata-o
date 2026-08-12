@@ -61,11 +61,11 @@ AcquaFlowPro-main/
 git clone https://github.com/Brun00Sillva/AcquaFlow---Sistema-de-Gest-o-de-Nata-o.git
 cd AcquaFlow---Sistema-de-Gest-o-de-Nata-o
 
-3️⃣ Instalar Dependências
+### 3️⃣ Instalar Dependências
 
 npm install
 
-4️⃣ Configurar Variáveis de Ambiente
+### 4️⃣ Configurar Variáveis de Ambiente
 
 Crie um arquivo .env.local na raiz do projeto com as credenciais do Supabase:
 
@@ -73,7 +73,7 @@ NEXT_PUBLIC_SUPABASE_URL=https://seu-projeto.supabase.co
 
 NEXT_PUBLIC_SUPABASE_ANON_KEY=sua_chave_anon_aqui
 
-5️⃣ Configurar o Supabase
+### 5️⃣ Configurar o Supabase
 
 Crie um projeto no Supabase
 
