@@ -62,8 +62,22 @@ AcquaFlowPro-main/
 ### 2️⃣ Clonar o Repositório
 
 ```bash
-git clone https://github.com/seu-usuario/AcquaFlow.git
-cd AcquaFlow
+
+---
+
+## 🚀 Como Rodar o Projeto
+
+### 1️⃣ Pré-requisitos
+
+- **Node.js** (versão 16 ou superior)
+- **NPM** ou **Yarn**
+- Conta no **Supabase** (gratuita)
+
+### 2️⃣ Clonar o Repositório
+
+```bash
+git clone https://github.com/Brun00Sillva/AcquaFlow---Sistema-de-Gest-o-de-Nata-o.git
+cd AcquaFlow---Sistema-de-Gest-o-de-Nata-o
 3️⃣ Instalar Dependências
 bash
 npm install
