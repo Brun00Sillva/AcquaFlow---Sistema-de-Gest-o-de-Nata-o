@@ -69,14 +69,15 @@ bash
 npm install
 
 4️⃣ Configurar Variáveis de Ambiente
+
 Crie um arquivo .env.local na raiz do projeto com as credenciais do Supabase:
 
-text
 NEXT_PUBLIC_SUPABASE_URL=https://seu-projeto.supabase.co
 
 NEXT_PUBLIC_SUPABASE_ANON_KEY=sua_chave_anon_aqui
 
 5️⃣ Configurar o Supabase
+
 Crie um projeto no Supabase
 
 Execute os scripts SQL disponíveis no SQL Editor para criar:
