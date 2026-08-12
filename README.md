@@ -165,6 +165,7 @@ Gráfico de pizza: distribuição por nível
 Situação dos alunos (em dia / em atraso)
 
 🗄️ Estrutura do Banco de Dados
+
 Tabelas Principais
 Tabela	Descrição
 usuarios	Administradores e professores (vinculado ao Auth)
