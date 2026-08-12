@@ -89,9 +89,9 @@ Agendamento (Cron) para gerar alertas mensais
 
 Crie usuários de teste no Authentication:
 
-admin@acquaflow.com / admin1234
+admin@acquaflow.com / 123456
 
-professor@acquaflow.com / prof1234
+professor@acquaflow.com / 1234567
 
 Vincule os usuários na tabela usuarios com seus UUIDs.
 
@@ -104,6 +104,7 @@ O aplicativo estará disponível em http://localhost:3000.
 ## 🧪 Credenciais de Teste
 
 Perfil	E-mail	Senha
+
 Administrador	admin@acquaflow.com	123456
 
 Professor	professor@acquaflow.com	1234567
