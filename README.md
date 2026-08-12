@@ -26,9 +26,6 @@ Oferecer uma solução intuitiva e eficiente para:
 
 ## 🏗️ Estrutura do Projeto
 
-
-## 🏗️ Estrutura do Projeto
-
 ```
 AcquaFlowPro-main/
 ├── public/
