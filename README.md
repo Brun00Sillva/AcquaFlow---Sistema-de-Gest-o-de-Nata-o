@@ -101,9 +101,11 @@ Vincule os usuários na tabela usuarios com seus UUIDs.
 6️⃣ Rodar o Servidor
 
 npm start
+
 O aplicativo estará disponível em http://localhost:3000.
 
 🧪 Credenciais de Teste
+
 Perfil	E-mail	Senha
 Administrador	admin@acquaflow.com	123456
 Professor	professor@acquaflow.com	1234567
