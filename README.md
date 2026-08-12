@@ -14,8 +14,6 @@ Oferecer uma solução intuitiva e eficiente para:
 - **Gerenciar pagamentos** (receitas e despesas)
 - **Visualizar dashboard** com KPIs e gráficos em tempo real
 
----
-
 ## 🛠️ Tecnologias Utilizadas
 
 | Tecnologia | Descrição |
@@ -25,11 +23,10 @@ Oferecer uma solução intuitiva e eficiente para:
 | **Recharts** | Biblioteca para gráficos no dashboard |
 | **CSS-in-JS** | Estilização inline com React |
 
----
 
 ## 🏗️ Estrutura do Projeto
 
-```
+
 AcquaFlowPro-main/
 ├── public/
 ├── src/
@@ -50,9 +47,6 @@ AcquaFlowPro-main/
 ├── .gitignore
 ├── package.json
 └── README.md
-```
-
-
 
 ## 🚀 Como Rodar o Projeto
 
@@ -64,10 +58,6 @@ AcquaFlowPro-main/
 
 ### 2️⃣ Clonar o Repositório
 
-```bash
-
----
-
 ## 🚀 Como Rodar o Projeto
 
 ### 1️⃣ Pré-requisitos
@@ -78,7 +68,7 @@ AcquaFlowPro-main/
 
 ### 2️⃣ Clonar o Repositório
 
-```bash
+
 git clone https://github.com/Brun00Sillva/AcquaFlow---Sistema-de-Gest-o-de-Nata-o.git
 cd AcquaFlow---Sistema-de-Gest-o-de-Nata-o
 3️⃣ Instalar Dependências
@@ -165,6 +155,7 @@ Lista com status "Pendente" / "Resolvido"
 Filtros por status
 
 Botão para marcar como resolvido
+
 
 📈 Dashboard
 KPIs: alunos ativos, em atraso, em dia, saldo
