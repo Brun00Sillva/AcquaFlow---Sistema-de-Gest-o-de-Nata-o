@@ -27,6 +27,9 @@ Oferecer uma solução intuitiva e eficiente para:
 ## 🏗️ Estrutura do Projeto
 
 
+## 🏗️ Estrutura do Projeto
+
+```
 AcquaFlowPro-main/
 ├── public/
 ├── src/
@@ -47,7 +50,7 @@ AcquaFlowPro-main/
 ├── .gitignore
 ├── package.json
 └── README.md
-
+```
 ## 🚀 Como Rodar o Projeto
 
 ### 1️⃣ Pré-requisitos
