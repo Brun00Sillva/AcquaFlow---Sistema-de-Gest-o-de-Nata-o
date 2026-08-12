@@ -28,26 +28,29 @@ Oferecer uma solução intuitiva e eficiente para:
 ---
 
 ## 🏗️ Estrutura do Projeto
+
+```
 AcquaFlowPro-main/
 ├── public/
 ├── src/
-│ ├── components/
-│ │ ├── modals/ # Modais (StudentModal, ExpenseModal)
-│ │ ├── tabs/ # Abas do dashboard
-│ │ ├── common/ # Componentes reutilizáveis
-│ │ ├── LoginPage.jsx
-│ │ ├── UnitDashboard.jsx
-│ │ └── UnitSelector.jsx
-│ ├── constants/ # Cores, textos, configurações
-│ ├── data/ # Dados mockados (substituídos pelo Supabase)
-│ ├── lib/ # Configuração do Supabase
-│ ├── utils/ # Funções auxiliares
-│ ├── App.jsx
-│ └── index.js
-├── .env.local # Variáveis de ambiente (NÃO SUBIR PARA O GIT)
+│   ├── components/
+│   │   ├── modals/          # Modais (StudentModal, ExpenseModal)
+│   │   ├── tabs/            # Abas do dashboard
+│   │   ├── common/          # Componentes reutilizáveis
+│   │   ├── LoginPage.jsx
+│   │   ├── UnitDashboard.jsx
+│   │   └── UnitSelector.jsx
+│   ├── constants/           # Cores, textos, configurações
+│   ├── data/                # Dados mockados (substituídos pelo Supabase)
+│   ├── lib/                 # Configuração do Supabase
+│   ├── utils/               # Funções auxiliares
+│   ├── App.jsx
+│   └── index.js
+├── .env.local               # Variáveis de ambiente (NÃO SUBIR PARA O GIT)
 ├── .gitignore
 ├── package.json
 └── README.md
+```
 
 
 
