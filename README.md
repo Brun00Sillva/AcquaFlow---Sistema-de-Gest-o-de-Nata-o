@@ -101,7 +101,7 @@ npm start
 
 O aplicativo estará disponível em http://localhost:3000.
 
-🧪 Credenciais de Teste
+## 🧪 Credenciais de Teste
 
 Perfil	E-mail	Senha
 Administrador	admin@acquaflow.com	123456
@@ -116,7 +116,7 @@ Login com Supabase Auth (JWT)
 
 Dois perfis: Admin (acesso total) e Professor (alunos e frequência)
 
-👨‍🎓 Alunos
+## 👨‍🎓 Alunos
 Cadastro, edição, exclusão
 
 Campos: nome, data de nascimento, telefone, e-mail, responsável
@@ -125,7 +125,7 @@ Status: Pendente / Pago / Trancado
 
 Plano: aulas por semana, horários, nível, mensalidade
 
-📊 Frequência
+## 📊 Frequência
 Grade semanal interativa (dias × horários)
 
 Marcação/desmarcação de presenças
@@ -136,7 +136,7 @@ Pop-up de confirmação para extras
 
 Painel lateral com resumo mensal
 
-💰 Financeiro
+## 💰 Financeiro
 Receitas (mensalidades, extras)
 
 Despesas (operacionais, materiais)
@@ -145,7 +145,7 @@ Saldo líquido
 
 Gráficos de receitas × despesas
 
-🔔 Alertas
+## 🔔 Alertas
 Gerados automaticamente para aulas extras
 
 Lista com status "Pendente" / "Resolvido"
@@ -155,7 +155,7 @@ Filtros por status
 Botão para marcar como resolvido
 
 
-📈 Dashboard
+## 📈 Dashboard
 KPIs: alunos ativos, em atraso, em dia, saldo
 
 Gráfico de barras: receitas × despesas (mensal)
@@ -164,29 +164,37 @@ Gráfico de pizza: distribuição por nível
 
 Situação dos alunos (em dia / em atraso)
 
-🗄️ Estrutura do Banco de Dados
+## 🗄️ Estrutura do Banco de Dados
 
-Tabelas Principais
-Tabela	Descrição
-usuarios	Administradores e professores (vinculado ao Auth)
-alunos	Alunos cadastrados
-modalidades	Planos (Sócio, Não Sócio, Militar, Bebê)
-matriculas	Vinculação aluno ↔ modalidade
-frequencia	Registro de presenças (com observacao para slot)
-pagamentos	Receitas e despesas
-alertas	Alertas gerados automaticamente
-Views
-View	Descrição
-vw_extras_mensais	Calcula aulas extras por aluno/mês
-vw_receitas_despesas_mensais	Agrega receitas e despesas por mês
-vw_situacao_pagamentos	Contagem de alunos em dia/atraso
-vw_alunos_ativos	Lista alunos ativos com plano e professor
-Funções
-Função	Descrição
-gerar_alertas_extras()	Gera alertas para alunos com extras no mês
-Agendamento (Cron)	Executa gerar_alertas_extras() todo dia 1º de cada mês
+### Tabelas Principais
 
-🛡️ Segurança
+| Tabela | Descrição |
+|--------|-----------|
+| `usuarios` | Administradores e professores (vinculado ao Auth) |
+| `alunos` | Alunos cadastrados |
+| `modalidades` | Planos (Sócio, Não Sócio, Militar, Bebê) |
+| `matriculas` | Vinculação aluno ↔ modalidade |
+| `frequencia` | Registro de presenças (com `observacao` para slot) |
+| `pagamentos` | Receitas e despesas |
+| `alertas` | Alertas gerados automaticamente |
+
+### Views
+
+| View | Descrição |
+|------|-----------|
+| `vw_extras_mensais` | Calcula aulas extras por aluno/mês |
+| `vw_receitas_despesas_mensais` | Agrega receitas e despesas por mês |
+| `vw_situacao_pagamentos` | Contagem de alunos em dia/atraso |
+| `vw_alunos_ativos` | Lista alunos ativos com plano e professor |
+
+### Funções
+
+| Função | Descrição |
+|--------|-----------|
+| `gerar_alertas_extras()` | Gera alertas para alunos com extras no mês |
+| Agendamento (Cron) | Executa `gerar_alertas_extras()` todo dia 1º de cada mês |
+
+## 🛡️ Segurança
 Row Level Security (RLS) ativa para todas as tabelas.
 
 Admin tem acesso total.
