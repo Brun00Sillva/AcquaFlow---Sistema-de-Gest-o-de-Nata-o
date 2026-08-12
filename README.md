@@ -65,7 +65,7 @@ git clone https://github.com/Brun00Sillva/AcquaFlow---Sistema-de-Gest-o-de-Nata-
 cd AcquaFlow---Sistema-de-Gest-o-de-Nata-o
 
 3️⃣ Instalar Dependências
-bash
+
 npm install
 
 4️⃣ Configurar Variáveis de Ambiente
@@ -99,7 +99,7 @@ professor@acquaflow.com / prof1234
 Vincule os usuários na tabela usuarios com seus UUIDs.
 
 6️⃣ Rodar o Servidor
-bash
+
 npm start
 O aplicativo estará disponível em http://localhost:3000.
 
