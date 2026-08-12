@@ -59,6 +59,7 @@ AcquaFlowPro-main/
 ### 2️⃣ Clonar o Repositório
 
 git clone https://github.com/Brun00Sillva/AcquaFlow---Sistema-de-Gest-o-de-Nata-o.git
+
 cd AcquaFlow---Sistema-de-Gest-o-de-Nata-o
 
 ### 3️⃣ Instalar Dependências
