@@ -105,9 +105,13 @@ O aplicativo estará disponível em http://localhost:3000.
 
 Perfil	E-mail	Senha
 Administrador	admin@acquaflow.com	123456
+
 Professor	professor@acquaflow.com	1234567
+
 📦 Funcionalidades
+
 🔐 Autenticação
+
 Login com Supabase Auth (JWT)
 
 Dois perfis: Admin (acesso total) e Professor (alunos e frequência)
